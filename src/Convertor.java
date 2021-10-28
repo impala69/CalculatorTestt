@@ -34,11 +34,8 @@ public class Convertor {
         if (romanNumber.length()==0){
             return 0;
         }
-        if (romanNumber.length()==1){
-            char c = romanNumber.charAt(0);
-            String s = String.valueOf(c);
-            return  map.get(s);
-        }
+        if (romanNumber.length()==1) return map.get(String.valueOf(romanNumber.charAt(0)));
+
                 for(int i = 0;i<(romanNumber.length()-1);i++){
                     if(map.get(String.valueOf(romanNumber.charAt(i)))>=
                             map.get(String.valueOf(romanNumber.charAt(i+1)))){
