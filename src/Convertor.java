@@ -53,7 +53,7 @@ public class Convertor {
         if (number == I){
             return map.get(number);
         }
-        return map.get(I) + intToRoman(number-1);
+        return map.get(I) + intToRoman(number-I);
 
     }
 
