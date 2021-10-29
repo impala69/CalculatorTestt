@@ -13,7 +13,7 @@ public class Convertor {
         map.put(100,"C");
         map.put(90,"XC");
         map.put(50,"L");
-        map.put(49,"XLIX");
+       // map.put(49,"XLIX");
         map.put(40,"XL");
         map.put(10,"X");
         map.put(9,"IX");
